@@ -10,3 +10,15 @@ I've created a free tier subscription in Azure with the following components:
 * Azure Storage Account
 * Azure Application Insights
 
+On the local machine
+
+1. Install az command with `choco install azure-cli`
+2. INstall Azure Machine learning extension with `az extension add -n ml -y`
+3. Create a virtual environment
+4. Install azure Machine learning sdk with `pip install --upgrade azureml-core`
+5. Install the vscode extension for azure machine learning
+6. Create a workspace configuration file: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment#workspace
+7. Add the config.json file to .gitignore
+
+Now we can switch to the tutorial: https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world
+
