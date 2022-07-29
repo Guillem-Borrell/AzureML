@@ -7,3 +7,6 @@ name = "helloworld"
 authors = [{name = "Guillem Borrell", email = "borrell.guillem@bcg.com"}]
 dynamic = ["version", "description"]
 dependencies = ["azure-ai-ml", "azure-identity"]
+
+[project.scripts]
+helloworld-job = "helloworld.run:test_job"
